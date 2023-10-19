@@ -1,11 +1,24 @@
 body {
     background-color: beige;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
 h1 {
-    color: aliceblue;
+    color: black;
     text-align: left;
 }
 .flexContainer {
     display: flex;
     
+}
+img {
+    width: 300px;
+    height: auto;
 }
