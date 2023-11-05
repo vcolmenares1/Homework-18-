@@ -102,6 +102,10 @@ img {
 h3 {
     align-items: center;
 
+
+}
+.cardContainer {
+
 }
 .articleContainer {
     display: grid;
@@ -148,7 +152,26 @@ h3 {
     margin: 1rem;
     color: #22447b;
 }
-.articleContent .cardExcerpt {}
+.articleContent .cardExcerpt {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+}
+@media screen and (min-width: 768px) {
+    .site-container {
+        max-width: 608px;
+    }
+    .articleCard {
+        display: grid;
+        grid-template-rows: 220px 1 fr;}
+    }
+@media screen and (min-width; 1280px){
+    .site-container {
+        max-width: 1156px;
+    }
+    
+}
 @media only screen and (max-width: 600){
     
 }
